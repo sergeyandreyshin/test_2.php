@@ -13,8 +13,8 @@ function primeNum($number, $arr) {
 
 function sumNum() {
     $arr = [];
-    $i = 2;
-    $cn = 0;
+    $i = 3;
+    $cn = 1;
     while (true) {
         if (primeNum($i,$arr)) {
             $arr[] = $i;
