@@ -20,7 +20,7 @@ function sumNum() {
             $arr[] = $i;
             $cn++;
         }
-        if ($cn == 1000) {
+        if ($cn == 100) {
             break;
         }
         $i++;
